@@ -1,10 +1,10 @@
 /* PROJECT:  ContactsProgram
  * Author: Drew Rautenberg
- * Contacts Class, referenced fom ContactsProgram.java
+ * Contact Class, referenced fom ContactsProgram.java
  ****************************************************************************/
 package contactsprogram;
 
-class Contacts {
+class Contact {
     private static String name;
     private static long phone;
 

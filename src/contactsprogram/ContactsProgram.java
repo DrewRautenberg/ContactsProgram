@@ -39,27 +39,27 @@ public class ContactsProgram {
         System.out.println("\nTHE END");
         System.exit(0);
     }
-    //**************************************************** TEST CLASS'S METHODS
-//    public static void testClassMethods(Contact person) {
-//
-//        System.out.printf("name is %s (starts with %c), phone (plain) is %d\n",
-//                FINISH THIS STATEMENT WITH GETTER CALLS);
-//
-//        System.out.printf("area code is %d, local number is %d\n",
-//                <<FINISH THIS STATEMENT WITH 2 METHOD CALLS>>);
-//
-//        System.out.printf("%s's phone number (nicely formatted) is : %s\n",
-//                 <<FINISH THIS STATEMENT WITH 2 METHOD CALLS>>);
-//
-//        // <<WRITE THE METHOD BELOW BEFORE UNCOMMENTING THE FOLLOWING>>
-//        if (person.is269AreaCode())
-//            System.out.println("The phone number is IN SW MICHIGAN");
-//        else
-//            System.out.println("The phone number is NOT IN SW MICHIGAN");
-//
-//        // Call the method to have OBJECT SHOW ITS OWN stored data values
-//              <<WRITE THE CODE HERE>>
+    //TEST CLASS'S METHODS
+    public static void testClassMethods(Contact person) {
 
-//        System.out.println(person);
-//    }
+        System.out.printf("name is %s (starts with %c), phone (plain) is %d\n",
+                FINISH THIS STATEMENT WITH GETTER CALLS);
+
+        System.out.printf("area code is %d, local number is %d\n",
+                <<FINISH THIS STATEMENT WITH 2 METHOD CALLS>>);
+
+        System.out.printf("%s's phone number (nicely formatted) is : %s\n",
+                 <<FINISH THIS STATEMENT WITH 2 METHOD CALLS>>);
+
+        // <<WRITE THE METHOD BELOW BEFORE UNCOMMENTING THE FOLLOWING>>
+        if (person.is269AreaCode())
+            System.out.println("The phone number is IN SW MICHIGAN");
+        else
+            System.out.println("The phone number is NOT IN SW MICHIGAN");
+
+        // Call the method to have OBJECT SHOW ITS OWN stored data values
+              <<WRITE THE CODE HERE>>
+
+        System.out.println(person);
+    }
 }
