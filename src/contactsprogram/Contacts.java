@@ -4,40 +4,46 @@ class Contacts {
     private static String name;
     private static long phone;
 
-    void setName(String pName){
-
-    }
-    void setPhone(long pPhone){
-
+    void setName(String pName) {
+        name = pName;
     }
 
-    String getName(){
-        return " ";
+    void setPhone(long pPhone) {
+        phone = pPhone;
     }
-    char getInitial(){
+
+    String getName() {
+        return name;
+    }
+
+    char getInitial() {
         return 'a';
     }
-    long getPhone(){
-        return  269276310;
+
+    long getPhone() {
+        return phone;
     }
 
-    int findAreaCode(){
+    int findAreaCode() {
         return 269;
     }
-    int findLocalNumber(){
+
+    int findLocalNumber() {
         return 2763101;
     }
-    boolean is269AreaCode(){
+
+    boolean is269AreaCode() {
         return true;
     }
-    String nicelyFormatPhone(){
+
+    String nicelyFormatPhone() {
         return "formatted phone";
     }
 
-    void displayData(){
+    void displayData() {
 
     }
     //String toString(){
-    //    return "string";
+    //   return "string";
     //}
 }
