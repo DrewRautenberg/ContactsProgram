@@ -25,11 +25,11 @@ class Contacts {
     }
 
     int findAreaCode() {
-        return (int)(phone / 10000000);
+        return (int) (phone / 10000000);
     }
 
     int findLocalNumber() {
-        return 2763101;
+        return (int) (phone % 10000000);
     }
 
     boolean is269AreaCode() {
@@ -37,7 +37,10 @@ class Contacts {
     }
 
     String nicelyFormatPhone() {
-        return "formatted phone";
+        int areaCode = findAreaCode();
+        int co = findLocalNumber() / 10000;
+        int line = findLocalNumber() % 10000;
+        return "(" + areaCode + ") " + co + "-" + line;
     }
 
     void displayData() {

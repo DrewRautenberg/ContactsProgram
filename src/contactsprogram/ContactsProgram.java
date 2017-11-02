@@ -33,10 +33,6 @@ public class ContactsProgram {
         //person2.setName(name);
         //person2.setPhone(phone);
 
-        System.out.println(person1.getPhone());
-        System.out.println(person1.findAreaCode());
-
-
         //TEST CLASS'S METHODS
 //        testClassMethods(person1);
 //        testClassMethods(person2);
