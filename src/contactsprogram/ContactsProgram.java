@@ -21,19 +21,21 @@ public class ContactsProgram {
         String name;
         long phone;
 
-       name = JOptionPane.showInputDialog("Enter name");
-       phone = Long.parseLong(JOptionPane.showInputDialog("Enter phone for " + name + "(just 10 digits)"));
-
-        // STORE person1's DATA IN OBJECT (CLASS ATTRIBUTES)
+        //person 1
+        name = JOptionPane.showInputDialog("Enter name");
+        phone = Long.parseLong(JOptionPane.showInputDialog("Enter phone for " + name + " (just 10 digits)"));
         person1.setName(name);
         person1.setPhone(phone);
 
-        name = JOptionPane.showInputDialog("Enter name");
-        phone = Long.parseLong(JOptionPane.showInputDialog("Enter phone for " + name + "(just 10 digits)"));
+        //person 2
+        //name = JOptionPane.showInputDialog("Enter name");
+        //phone = Long.parseLong(JOptionPane.showInputDialog("Enter phone for " + name + " (just 10 digits)"));
+        //person2.setName(name);
+        //person2.setPhone(phone);
 
-        // STORE person2's DATA IN OBJECT (CLASS ATTRIBUTES)
-        person2.setName(name);
-        person2.setPhone(phone);
+        System.out.println(person1.getPhone());
+        System.out.println(person1.findAreaCode());
+
 
         //TEST CLASS'S METHODS
 //        testClassMethods(person1);

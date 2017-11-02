@@ -25,7 +25,7 @@ class Contacts {
     }
 
     int findAreaCode() {
-        return 786;
+        return (int)(phone / 10000000);
     }
 
     int findLocalNumber() {
