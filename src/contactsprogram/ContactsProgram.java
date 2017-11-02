@@ -14,34 +14,31 @@ public class ContactsProgram {
     public static void main(String[] args) {
 
         // DECLARE TWO OBJECT, person1 and person2, of Contact CLASS TYPE
+        Contacts person1 = new Contacts();
+        Contacts person2 = new Contacts();
 
-
-
-        // ------------------------------------------------ GET DATA & STORE IT
+        //GET DATA & STORE IT
         String name;
         long phone;
 
-//        name = JOptionPane.showInputDialog("Enter name");
-//        phone = Long.parseLong(JOptionPane.showInputDialog(
-//                "Enter phone for " + name + "(just 10 digits)"));
+       name = JOptionPane.showInputDialog("Enter name");
+       phone = Long.parseLong(JOptionPane.showInputDialog("Enter phone for " + name + "(just 10 digits)"));
 
         // STORE person1's DATA IN OBJECT (CLASS ATTRIBUTES)
+        person1.setName(name);
+        person1.setPhone(phone);
 
-
-
-//        name = JOptionPane.showInputDialog("Enter name");
-//        phone = Long.parseLong(JOptionPane.showInputDialog(
-//                "Enter phone for " + name + "(just 10 digits)"));
+        name = JOptionPane.showInputDialog("Enter name");
+        phone = Long.parseLong(JOptionPane.showInputDialog("Enter phone for " + name + "(just 10 digits)"));
 
         // STORE person2's DATA IN OBJECT (CLASS ATTRIBUTES)
+        person2.setName(name);
+        person2.setPhone(phone);
 
-
-
-
-        // ----------------------------------------------- TEST CLASS'S METHODS
+        //TEST CLASS'S METHODS
 //        testClassMethods(person1);
 //        testClassMethods(person2);
-        //----------------------------------------------------------- FINISH UP
+        //FINISH UP
         System.out.println("\nTHE END");
         System.exit(0);
     }
