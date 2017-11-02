@@ -1,6 +1,6 @@
 package contactsprogram;
 
-public class Contacts {
+class Contacts {
     private static String name;
     private static long phone;
 
