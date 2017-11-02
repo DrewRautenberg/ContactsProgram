@@ -17,7 +17,7 @@ class Contacts {
     }
 
     char getInitial() {
-        return 'a';
+        return name.charAt(0);
     }
 
     long getPhone() {
@@ -25,7 +25,7 @@ class Contacts {
     }
 
     int findAreaCode() {
-        return 269;
+        return 786;
     }
 
     int findLocalNumber() {
@@ -33,7 +33,7 @@ class Contacts {
     }
 
     boolean is269AreaCode() {
-        return true;
+        return findAreaCode() == 269;
     }
 
     String nicelyFormatPhone() {
