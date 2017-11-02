@@ -48,9 +48,12 @@ class Contact {
     }
 
     void displayData() {
+        System.out.println("Name: " + name);
+        System.out.println("Phone Number: " + phone);
 
     }
-    //String toString(){
-    //   return "string";
-    //}
+
+    public String toString() {
+        return name + " " + phone;
+    }
 }

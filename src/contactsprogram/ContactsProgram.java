@@ -27,27 +27,30 @@ public class ContactsProgram {
         person1.setPhone(phone);
 
         //person 2
-        //name = JOptionPane.showInputDialog("Enter name");
-        //phone = Long.parseLong(JOptionPane.showInputDialog("Enter phone for " + name + " (just 10 digits)"));
-        //person2.setName(name);
-        //person2.setPhone(phone);
+        name = JOptionPane.showInputDialog("Enter name");
+        phone = Long.parseLong(JOptionPane.showInputDialog("Enter phone for " + name + " (just 10 digits)"));
+        person2.setName(name);
+        person2.setPhone(phone);
 
         //TEST CLASS'S METHODS
-        // testClassMethods(person1);
-//        testClassMethods(person2);
+        testClassMethods(person1);
+        testClassMethods(person2);
         //FINISH UP
         System.out.println("\nTHE END");
         System.exit(0);
     }
+
     //TEST CLASS'S METHODS
     public static void testClassMethods(Contact person) {
 
         System.out.printf("name is %s (starts with %c), phone (plain) is %d\n",
-                person.getName(),person.getInitial(),person.getPhone());
+                person.getName(), person.getInitial(), person.getPhone());
 
-        System.out.printf("area code is %d, local number is %d\n",person.findAreaCode(),person.findLocalNumber());
+        System.out.printf("area code is %d, local number is %d\n",
+                person.findAreaCode(), person.findLocalNumber());
 
-        System.out.printf("%s's phone number (nicely formatted) is : %s\n",person.getName(),person.nicelyFormatPhone());
+        System.out.printf("%s's phone number (nicely formatted) is : %s\n",
+                person.getName(), person.nicelyFormatPhone());
 
         // <<WRITE THE METHOD BELOW BEFORE UNCOMMENTING THE FOLLOWING>>
         if (person.is269AreaCode())
@@ -56,6 +59,7 @@ public class ContactsProgram {
             System.out.println("The phone number is NOT IN SW MICHIGAN");
 
         // Call the method to have OBJECT SHOW ITS OWN stored data values
+        person.displayData();
 
         System.out.println(person);
     }
