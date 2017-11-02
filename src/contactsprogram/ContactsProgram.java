@@ -41,7 +41,7 @@ public class ContactsProgram {
     }
 
     //TEST CLASS'S METHODS
-    public static void testClassMethods(Contact person) {
+    private static void testClassMethods(Contact person) {
 
         System.out.printf("name is %s (starts with %c), phone (plain) is %d\n",
                 person.getName(), person.getInitial(), person.getPhone());
