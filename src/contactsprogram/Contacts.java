@@ -1,3 +1,7 @@
+/* PROJECT:  ContactsProgram
+ * Author: Drew Rautenberg
+ * Contacts Class, referenced fom ContactsProgram.java
+ ****************************************************************************/
 package contactsprogram;
 
 class Contacts {

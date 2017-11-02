@@ -1,6 +1,5 @@
 /* PROJECT:  ContactsProgram
- * AUTHOR:  Kaminski
- * TODO:  Write the Contact class (in a separate file).
+ * AUTHOR:  Kaminski   Modified: Drew Rautenberg
  *      Add code to THIS module, and uncomment the appropriate code here in
  *      THIS controller program/class to make the project work.
  * IMPORTANT:  See ContactUML.txt in project folder.
