@@ -41,26 +41,26 @@ public class ContactsProgram {
     }
 
     //TEST CLASS'S METHODS
-    private static void testClassMethods(Contact person) {
+    private static void testClassMethods(Contact personOut) {
 
         System.out.printf("name is %s (starts with %c), phone (plain) is %d\n",
-                person.getName(), person.getInitial(), person.getPhone());
+                personOut.getName(), personOut.getInitial(), personOut.getPhone());
 
         System.out.printf("area code is %d, local number is %d\n",
-                person.findAreaCode(), person.findLocalNumber());
+                personOut.findAreaCode(), personOut.findLocalNumber());
 
         System.out.printf("%s's phone number (nicely formatted) is : %s\n",
-                person.getName(), person.nicelyFormatPhone());
+                personOut.getName(), personOut.nicelyFormatPhone());
 
         // <<WRITE THE METHOD BELOW BEFORE UNCOMMENTING THE FOLLOWING>>
-        if (person.is269AreaCode())
+        if (personOut.is269AreaCode())
             System.out.println("The phone number is IN SW MICHIGAN");
         else
             System.out.println("The phone number is NOT IN SW MICHIGAN");
 
         // Call the method to have OBJECT SHOW ITS OWN stored data values
-        person.displayData();
+        personOut.displayData();
 
-        System.out.println(person);
+        System.out.println(personOut);
     }
 }

@@ -4,9 +4,9 @@
  ****************************************************************************/
 package contactsprogram;
 
-class Contact {
-    private static String name;
-    private static long phone;
+public class Contact {
+    private String name;
+    private long phone;
 
     void setName(String pName) {
         name = pName;
