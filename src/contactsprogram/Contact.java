@@ -49,7 +49,7 @@ class Contact {
 
     void displayData() {
         System.out.println("Name: " + name);
-        System.out.println("Phone Number: " + phone);
+        System.out.println("Phone: " + phone);
 
     }
 
